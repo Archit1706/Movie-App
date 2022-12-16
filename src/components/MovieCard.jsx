@@ -29,7 +29,6 @@ const MovieCard = () => {
     }, []);
 
     const openMovieDetails = (movie) => {
-        console.log(movie);
         setMovie(movie);
         setModal(true);
         window.scrollTo(0,0)
