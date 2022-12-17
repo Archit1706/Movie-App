@@ -46,7 +46,7 @@ const MovieCard = () => {
                 });
         };
         getMovies();
-    }, []);
+    }, [apiKey]);
 
     const openMovieDetails = (movie) => {
         setMovie(movie);
