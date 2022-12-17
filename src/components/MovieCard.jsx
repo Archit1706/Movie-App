@@ -29,25 +29,24 @@ const MovieCard = () => {
         }
     };
 
-    const getMovies = () => {
-        axios
-            .get("https://api.themoviedb.org/3/movie/popular", {
-                params: {
-                    api_key: apiKey,
-                    language: "en-US",
-                },
-            })
-            .then((response) => {
-                setMovies(response.data.results);
-            })
-            .catch((error) => {
-                console.log(error);
-            });
-    };
-
     useEffect(() => {
+        const getMovies = () => {
+            axios
+                .get("https://api.themoviedb.org/3/movie/popular", {
+                    params: {
+                        api_key: apiKey,
+                        language: "en-US",
+                    },
+                })
+                .then((response) => {
+                    setMovies(response.data.results);
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
+        };
         getMovies();
-    }, [movies]);
+    }, []);
 
     const openMovieDetails = (movie) => {
         setMovie(movie);
