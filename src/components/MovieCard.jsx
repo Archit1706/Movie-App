@@ -46,11 +46,9 @@ const MovieCard = () => {
             });
     };
 
-    // useEffect(() => {
-    //     getMovies();
-    // }, []);
-
-    getMovies();
+    useEffect(() => {
+        getMovies();
+    });
 
     const openMovieDetails = (movie) => {
         setMovie(movie);
