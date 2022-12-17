@@ -47,7 +47,7 @@ const MovieCard = () => {
 
     useEffect(() => {
         getMovies();
-    });
+    }, [movies]);
 
     const openMovieDetails = (movie) => {
         setMovie(movie);
