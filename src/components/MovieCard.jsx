@@ -21,7 +21,6 @@ const MovieCard = () => {
                     `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&query=${search}&page=1`
                 )
                 .then((res) => {
-                    console.log(res.data.results);
                     setMovies(res.data.results);
                 })
                 .catch((err) => {
