@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { AiOutlineClose } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/logo2.jpg";
 
 const MovieCard = () => {
     const [movies, setMovies] = useState([]);
@@ -65,7 +65,7 @@ const MovieCard = () => {
                 {/* Logo */}
                 <div className="shadow-lg">
                     <img
-                        className="rounded-md w-[100px] sm:w-[150px]"
+                        className="rounded-md w-[100px]"
                         // width={150}
                         src={Logo}
                         alt="logo"
