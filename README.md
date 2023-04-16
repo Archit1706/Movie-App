@@ -1,4 +1,4 @@
-# Moviescape
+# Moviescape [Live](https://moviescape.netlify.app/)
 Moviescape is a movie and TV show web application that uses React.js, Tailwind, and the TMDB API to display the latest movies and TV shows, as well as their details.
 
 ## Features
