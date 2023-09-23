@@ -23,3 +23,10 @@ To get started with Moviescape, follow these steps:
 - Get an API key from ```TMDB API``` and add it to the .env file in the root directory of the project.
 - Run ```npm start``` to start the development server.
 - Navigate to ```http://localhost:3000``` in your browser to access the application.
+
+## Screenshots
+
+![image](https://github.com/Archit1706/Movie-App/assets/75872913/4cc04ea5-ba15-43d8-9ea5-4cacd6256350)
+
+<img width="832" alt="image" src="https://github.com/Archit1706/Movie-App/assets/75872913/3701a11e-0686-4e03-a9d1-30542b3d9db8">
+
